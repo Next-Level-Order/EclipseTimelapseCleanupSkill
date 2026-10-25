@@ -1,0 +1,19 @@
+{
+  "_readme": [
+    "Frames reviewed and excluded. Kept as data so nothing is deleted from disk.",
+    "Pass with --exclusions config/exclusions.json to cutouts.py and render.py.",
+    "Reasons are for the human; only the keys matter to the code."
+  ],
+  "drop": {
+    "IMG_3869": "unusable",
+    "IMG_3895": "negligible data - only a sliver visible",
+    "IMG_3896": "unusable",
+    "IMG_3897": "black frame",
+    "IMG_3900": "black frame",
+    "IMG_3990": "black frame",
+    "IMG_3992": "unusable",
+    "IMG_3993": "dark and mis-cropped",
+    "IMG_4004": "black frame",
+    "IMG_4007": "disk mis-placed in frame"
+  }
+}
